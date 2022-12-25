@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.i-block {
+  display: inline-block;
+}
+
+.ml-3rem {
+  margin-left: 3rem;
+}
+.white {
+  color:white
+}
+.ul-none {
+  list-style: none;
+}
+.t-none {
+  text-decoration: none;
+}
+.navbar_hover:hover {
+  transition: 1s ;
+  color:aqua;
+}
+
+.new_index {
+  background-image:url('https://images7.alphacoders.com/437/thumb-1920-437207.jpg');
+  height: calc(100vh / 2.5);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  color:#fff;
+  display: flex;
+  align-items: center;
+}
+
+.pagination {
+	float: right;
+	margin: 0 0 5px;
+}
+.pagination li a {
+	border: none;
+	font-size: 13px;
+	min-width: 30px;
+	min-height: 30px;
+	color: #999;
+	margin: 0 2px;
+	line-height: 30px;
+	border-radius: 2px !important;
+	text-align: center;
+	padding: 0 20px;
+}
+.pagination li a:hover {
+	color: #666;
+}	
+.pagination li.active a, .pagination li.active a.page-link {
+	background: #03A9F4;
+}
+.pagination li.active a:hover {        
+	background: #0397d6;
+}
+.pagination li.disabled i {
+	color: #ccc;
+}
+.pagination li i {
+	font-size: 16px;
+	padding-top: 6px
+}
+
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    padding: 3px;
+    border-radius: 50%;
+    display: inherit;
+    color: #fff;
+  }
+
+.pricing {
+  background-color: #2b2b31;
+  height: calc(100vh/2);
+  color:white
+}
+
+.div_price {
+  border: 1px solid red;
+  padding: 20px;
+  border-bottom: none;
+
+}
+.ul_div li {
+  border-bottom: 1px solid yellow;
+  padding: 8px;
+}
